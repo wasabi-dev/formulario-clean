@@ -1,0 +1,41 @@
+Por ahora la idea es que se recopilen los datos del formulario y se manden
+a un email
+
+Mas adelante haremos una página de administracion y crearemos una base de datos
+
+En la ventana modal debe aparecer un presupuesto estimado.
+Para obtener ese precio sería de la siguiente forma
+****Para los servicios de desinfeccion, todavía no tenemos los precios
+por eso voy a inventar números, que luego modifiquemos
+Disinfection Services
+I want to disinfect my
+house = 20
+office = 30
+vehicle = 40
+restaurant = 50
+hairdressing = 20
+clinic = 30
+
+Or choose by squere meters
+10m = 20
+15m = 30
+20m = 40
+30m = 50
+
+***Con respecto a la cantidad de habitaciones, para este tipo de limpieza, probablemente sea un dato mas
+
+****Si elige limpieza Standard. Los precios son los reales 
+El precio que muestre sería por día. Esto es para evitar complicarse si el usuario elige
+más de 2 veces por semana
+
+Precio por Hora (phora) = 17
+Extras:
+windows = 35
+oven = 48
+dobleoven = 58
+armchair2 = 30
+armchair3 = 45
+carpet = 38
+
+Precio total = (Cant de horas seleccionadas * phora) + extras
+

@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ventana Modal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="row d-flex justify-content-center">
+    <div class="col-md-6 modal">
         <h3>Please, check your data</h3>
-        <span>Name:     </span>
-        
+        <p>Name:     </p>
+        <p>Lastname:     </p>
+        <p>Email:     </p>
+        <p>Phone:     </p>
+        <p>Address:     </p>
+    <div class="data">
+        <p>You select: <!--Tipo de limpieza: Standard o Disinfection--></p>
+        <p>Extras: <!--Si elige limpieza Standard debería aparecer este dato--></p>
+        <p>Environments: <!--Si elige limpieza Disinfection debería aparecer este dato--></p>
+        <p>Chosen Day: </p>
+        <p>Schedule: </p>
+        <p>Approximate budget: <!---Precio total---></p>
     </div>
+    <button>Confirm my Data</button>
+    <button>Back</button>
+    </div>
+</div>
 </body>
 </html>

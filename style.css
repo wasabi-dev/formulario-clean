@@ -73,3 +73,6 @@ label{
 #standard{
     display: none;
 }
+.modal h3{
+    text-align: center;
+}
